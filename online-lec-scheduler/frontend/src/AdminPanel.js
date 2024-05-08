@@ -18,7 +18,7 @@ const AdminPanel = () => {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/add-course', { name, level, description });
+      await axios.post('https://lecture-scheduler-sfft.onrender.com/add-course', { name, level, description });
       setMessage('Course added successfully!');
     } catch (error) {
       setMessage('Failed to add course');
@@ -28,7 +28,7 @@ const AdminPanel = () => {
   const handleList = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get('http://localhost:5000/list-of-instructors');
+      const response = await axios.get('https://lecture-scheduler-sfft.onrender.com/list-of-instructors');
       console.log(response.data.instructor);
       setList(response.data.instructor);
     } catch (error) {
