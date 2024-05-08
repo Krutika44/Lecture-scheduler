@@ -52,7 +52,7 @@ const AdminPanel = () => {
       <button onClick={handleList} className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300 mb-4">List of Instructors</button>
       {listt.map((instructor) => (
         <div key={instructor._id} className="bg-gray-100 rounded mb-2">
-          <p className="text-lg font-semibold">{instructor.name}</p>
+          <p className="text-lg p-4 font-semibold">{instructor.name}</p>
           <p className="text-gray-700">{instructor.subject}</p>
         </div>
       ))}
