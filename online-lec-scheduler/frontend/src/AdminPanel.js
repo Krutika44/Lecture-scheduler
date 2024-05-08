@@ -53,7 +53,7 @@ const AdminPanel = () => {
       {listt.map((instructor) => (
         <div key={instructor._id} className="bg-gray-100 rounded mb-2">
           <p className="text-lg p-4 font-semibold">{instructor.name}</p>
-          <p className="text-gray-700">{instructor.subject}</p>
+          <p className="text-gray-700 p-4">{instructor.subject}</p>
         </div>
       ))}
     </div>
