@@ -7,11 +7,11 @@ This is an online scheduler application.
 https://online-lecture-scheduler.netlify.app/
 
 ## Admin Credentials
-- Username: admin
+- Username: Admin
 - Password: adminpass
 
 ## User Credentials
-- Username: user
+- Username: User
 - Password: userpass
 
 ## Adding a Course
@@ -30,8 +30,8 @@ To view the list of instructors:
 4. The list of instructors will be displayed, retrieved from the database.
 
 ## Technologies Used
-- Frontend: React.js
+- Frontend: React.js, TailwindCSS
 - Backend: Node.js, Express.js
 - Database: MongoDB
 
-##For deploying backend I have user render website and for deploying frontend i have user netlify
+## For deploying backend I have user render website and for deploying frontend I have user netlify
